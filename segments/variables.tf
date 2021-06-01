@@ -12,3 +12,7 @@ variable "domain_name" {
 variable "dhcp_ranges" {
   type = list(string)
 }
+
+variable "dns_servers" {
+  type = list(string)
+}

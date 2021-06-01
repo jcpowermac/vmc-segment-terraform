@@ -2,6 +2,9 @@
 variable "segment_count" {
   type = number
 }
+variable "segment_start_number" {
+  type = number
+}
 
 variable "segment_domain_name" {
   type = string
@@ -25,6 +28,9 @@ variable "segment_subnet" {
 
 variable "segment_subnet_mask" {
   type = number
+}
+variable "segment_dns_servers" {
+  type = list(string)
 }
 
 

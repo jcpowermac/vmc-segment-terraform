@@ -20,6 +20,9 @@ variable "segment_dhcp_start" {
 variable "segment_dhcp_end" {
   type = number
 }
+variable "segment_dhcp_lease_timeout" {
+  type = number
+}
 
 
 variable "segment_subnet" {

@@ -13,6 +13,7 @@ resource "nsxt_policy_segment" "segments" {
     dhcp_ranges = var.dhcp_ranges
     dhcp_v4_config {
       dns_servers = var.dns_servers
+      lease_time  = var.dhcp_lease_timeout
     }
   }
 }

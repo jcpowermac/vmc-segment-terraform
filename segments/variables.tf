@@ -16,3 +16,7 @@ variable "dhcp_ranges" {
 variable "dns_servers" {
   type = list(string)
 }
+
+variable "dhcp_lease_timeout" {
+  type = number
+}
